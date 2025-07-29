@@ -1,6 +1,9 @@
 # aula4_questao2.py
-avaliacao = int(input("Digite a avaliação do filme (1 a 5): "))
 
+# Solicita a avaliação do usuário
+avaliacao = int(input("Insira a avaliação do filme (1 a 5): "))
+
+# Verifica e imprime a mensagem correspondente
 if avaliacao == 5:
     print("Excelente!")
 elif avaliacao == 4:
@@ -12,4 +15,4 @@ elif avaliacao == 2:
 elif avaliacao == 1:
     print("Ruim.")
 else:
-    print("Avaliação inválida.")
+    print("Avaliação inválida. Por favor, insira um número de 1 a 5.")

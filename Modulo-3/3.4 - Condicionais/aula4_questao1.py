@@ -1,9 +1,13 @@
 # aula4_questao1.py
-numero1 = int(input("Digite o primeiro número: "))
-numero2 = int(input("Digite o segundo número: "))
 
-soma = numero1 + numero2
+# Lê dois números do usuário
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 
+# Calcula a soma
+soma = num1 + num2
+
+# Verifica se a soma é par ou ímpar usando o operador de resto (%)
 if soma % 2 == 0:
     print("A soma é par.")
 else:
